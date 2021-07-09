@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{6154901E-30FE-4DAF-9557-A20BA0DAAD78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{63CE1372-ABD8-4BE2-BE43-139E1362008C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{956FE92E-8BEA-443B-85BF-E836EB732640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hinh", "Hinh", "{85387EAF-5C67-407C-A31C-B568B0D3D2B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\Downloads\LOGO.png = ..\..\..\..\..\..\Downloads\LOGO.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{AF62F43D-ADCF-4A12-80BE-CEEB60C22BC5}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\Downloads\LOGO.ico = ..\..\..\..\..\..\Downloads\LOGO.ico
+		..\..\..\..\..\..\Downloads\Office 360.gif = ..\..\..\..\..\..\Downloads\Office 360.gif
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6154901E-30FE-4DAF-9557-A20BA0DAAD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6154901E-30FE-4DAF-9557-A20BA0DAAD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6154901E-30FE-4DAF-9557-A20BA0DAAD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6154901E-30FE-4DAF-9557-A20BA0DAAD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CE1372-ABD8-4BE2-BE43-139E1362008C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CE1372-ABD8-4BE2-BE43-139E1362008C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CE1372-ABD8-4BE2-BE43-139E1362008C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CE1372-ABD8-4BE2-BE43-139E1362008C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956FE92E-8BEA-443B-85BF-E836EB732640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956FE92E-8BEA-443B-85BF-E836EB732640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956FE92E-8BEA-443B-85BF-E836EB732640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956FE92E-8BEA-443B-85BF-E836EB732640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF62F43D-ADCF-4A12-80BE-CEEB60C22BC5} = {85387EAF-5C67-407C-A31C-B568B0D3D2B9}
+	EndGlobalSection
+EndGlobal

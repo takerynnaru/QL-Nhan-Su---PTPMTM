@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6154901E-30FE-4DAF-9557-A20BA0DAAD78}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BLL">
+      <HintPath>..\BLL\bin\Debug\BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACALAM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ACALAM.Designer.cs">
+      <DependentUpon>ACALAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADAY.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ADAY.Designer.cs">
+      <DependentUpon>ADAY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AThongBao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AThongBao.Designer.cs">
+      <DependentUpon>AThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaData.cs" />
+    <Compile Include="CaItem.cs" />
+    <Compile Include="Cons.cs" />
+    <Compile Include="DailyCa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyCa.Designer.cs">
+      <DependentUpon>DailyCa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataNhanSu.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataNhanSu.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="FormDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDangNhap.Designer.cs">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm1.Designer.cs">
+      <DependentUpon>MainForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhanCongItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ACALAM.resx">
+      <DependentUpon>ACALAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADAY.resx">
+      <DependentUpon>ADAY.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataNhanSu.dbml.layout">
+      <DependentUpon>DataNhanSu.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="AThongBao.resx">
+      <DependentUpon>AThongBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyCa.resx">
+      <DependentUpon>DailyCa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm1.resx">
+      <DependentUpon>MainForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DataNhanSu.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataNhanSu.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office 360.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office 360.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HINH\Thiết kế không tên %281%29.gif" />
+    <Content Include="HINH\Thiết kế không tên.gif" />
+    <Content Include="Resources\son1.png" />
+    <None Include="Resources\contact_32x32.png" />
+    <None Include="Resources\assignto_32x321.png" />
+    <None Include="Resources\assignto_32x32.png" />
+    <None Include="Resources\customer_16x16.png" />
+    <None Include="Resources\customer_32x32.png" />
+    <None Include="Resources\today_32x32.png" />
+    <None Include="Resources\switchtimescalesto_32x32.png" />
+    <None Include="Resources\showworktimeonly_32x32.png" />
+    <None Include="Resources\home_32x32.png" />
+    <None Include="Resources\strikeoutdouble_32x32.png" />
+    <None Include="Resources\addchartpane_32x32.png" />
+    <Content Include="HINH\avatar\avartar.png" />
+    <Content Include="HINH\avatar\h1.png" />
+    <Content Include="HINH\avatar\h2.png" />
+    <Content Include="HINH\avatar\h3.png" />
+    <Content Include="HINH\avatar\h4.png" />
+    <Content Include="HINH\avatar\h5.png" />
+    <Content Include="HINH\avatar\son1.png" />
+    <Content Include="Resources\avartar.png" />
+    <Content Include="Resources\h1.png" />
+    <Content Include="Resources\h2.png" />
+    <Content Include="Resources\h3.png" />
+    <Content Include="Resources\h4.png" />
+    <Content Include="Resources\h5.png" />
+    <Content Include="Resources\LOGO %281%29.png" />
+    <None Include="Resources\newcustomers_16x16.png" />
+    <None Include="Resources\newcustomers_32x32.png" />
+    <None Include="Resources\LOGO %281%291.png" />
+    <Content Include="Resources\LOGO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{956FE92E-8BEA-443B-85BF-E836EB732640}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
