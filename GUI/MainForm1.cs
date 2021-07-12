@@ -585,6 +585,20 @@ namespace GUI
             LoadThongTAIKHOAN(manvdn);
             LoadMatrix();
             panelEditMK_TaiKhoan.Hide();
+
+            BLLFireBase fb = new BLLFireBase();
+
+            if(fb.ConectFireBase() == 0)
+            {
+                MessageBox.Show("Kết nối thất bại");
+                return;
+            }
+            else
+            {
+                MessageBox.Show("Kết nối thành công");
+            }
+            
+
         }
 
         private void barButtonItem30_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

@@ -33,6 +33,18 @@
     <Reference Include="DAL">
       <HintPath>..\DAL\bin\Debug\DAL.dll</HintPath>
     </Reference>
+    <Reference Include="FireSharp, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\HOC\Phát triển phần mềm\demo_Nuget\demo_Nuget\bin\Debug\FireSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="FireSharp.Serialization.JsonNet, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\HOC\Phát triển phần mềm\demo_Nuget\demo_Nuget\bin\Debug\FireSharp.Serialization.JsonNet.dll</HintPath>
+    </Reference>
+    <Reference Include="FireSharp.Serialization.ServiceStack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\HOC\Phát triển phần mềm\demo_Nuget\demo_Nuget\bin\Debug\FireSharp.Serialization.ServiceStack.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +59,7 @@
     <Compile Include="BLLChamCong.cs" />
     <Compile Include="BLLChuVu.cs" />
     <Compile Include="BLLDonTu.cs" />
+    <Compile Include="BLLFireBase.cs" />
     <Compile Include="BLLHopDong.cs" />
     <Compile Include="BLLNhanVien.cs" />
     <Compile Include="BLLPhanCong.cs" />
