@@ -26,7 +26,7 @@ namespace GUI
         BLLCaLamViec CLV = new BLLCaLamViec();
         BLLPhanCong PC = new BLLPhanCong();
         BLLChamCong CC = new BLLChamCong();
-
+        BLLFireBase FB = new BLLFireBase();
         string manvdn;
         string chondon;
         protected string fileName = "null";
@@ -586,9 +586,9 @@ namespace GUI
             LoadMatrix();
             panelEditMK_TaiKhoan.Hide();
 
-            BLLFireBase fb = new BLLFireBase();
 
-            if(fb.ConectFireBase() == 0)
+
+            if (FB.CreateFirebaseClient() == null)
             {
                 MessageBox.Show("Kết nối thất bại");
                 return;
@@ -2510,6 +2510,56 @@ namespace GUI
                         buttonSua_DonTu_View.Enabled = true;
                         buttonXoa_DonTu_View.Enabled = true;
                     }
+        }
+
+        private void BT_THEMNV_FIREBASE_DEMO_Click(object sender, EventArgs e)
+        {
+            //try
+            //{
+            //    FB_NhanVien NV = new FB_NhanVien();
+            //    //kh.MaKhoa = txtMaKhoa.Text;
+            //    NV.TenNV
+            //    MaNV 
+            //    Mchucvu 
+            //    Gioitinh 
+            //    Ngaysinh
+            //    Sdt 
+            //    Phongban
+            //    Maluong
+            //    Ngayvaolam 
+            //    Tinhtrang 
+            //    Chedolamviec 
+            //    Mahd 
+            //    Hinh
+
+
+            //    //kh.TenKhoa = txtTenKhoa.Text;
+            //    string url = "Khoa/" + txtMaKhoa.Text + "/";
+            //    FB.FireBaseInsertDataBLL(FB.ConectFireBase(), kh, url);
+
+            //    MessageBox.Show("Thêm thành công");
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Thêm thất bai");
+            //    return;
+            //}
+        }
+
+        private void navigationPage1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        ///================================================================================================================================
+        ///                       PHÂN QUYỀN                    
+        ///================================================================================================================================
+
+
+
+        private void barButtonItem17_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            navigationFrameMain.SelectedPage = navigationPage_PhanQuyen;
         }
 
 

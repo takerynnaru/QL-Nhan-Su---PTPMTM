@@ -37,3 +37,9 @@ C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\obj
 C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\obj\Debug\GUI.exe.licenses
 C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\bin\Debug\FireSharp.dll
+C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\bin\Debug\FireSharp.Serialization.ServiceStack.dll
+C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\bin\Debug\RestSharp.dll
+C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\AppData\Local\GitHubDesktop\app-2.8.2\QL-Nhan-Su---PTPMTM\GUI\bin\Debug\RestSharp.xml

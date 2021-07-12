@@ -68,6 +68,7 @@
     <Compile Include="BLLThongBao.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="DangNhapBLL.cs" />
+    <Compile Include="FB_NhanVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

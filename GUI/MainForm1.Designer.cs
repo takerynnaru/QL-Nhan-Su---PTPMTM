@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm1));
-            DevExpress.Utils.SuperToolTip superToolTip9 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem17 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem9 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem18 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip10 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem19 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem10 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem20 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem4 = new DevExpress.Utils.ToolTipTitleItem();
             this.tabbedView = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(this.components);
             this.officeNavigationBar = new DevExpress.XtraBars.Navigation.OfficeNavigationBar();
             this.navBarControl = new DevExpress.XtraNavBar.NavBarControl();
@@ -387,6 +387,33 @@
             this.panel22 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.navigationPageTaoThongBao = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.label131 = new System.Windows.Forms.Label();
+            this.TB_HINH_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label122 = new System.Windows.Forms.Label();
+            this.TB_MAHD_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label121 = new System.Windows.Forms.Label();
+            this.TB_CHEDOLAMVIEC_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label120 = new System.Windows.Forms.Label();
+            this.TB_TINHTRANG_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label117 = new System.Windows.Forms.Label();
+            this.TB_NGAYVAOLAM_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label116 = new System.Windows.Forms.Label();
+            this.TB_MALUONG_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label115 = new System.Windows.Forms.Label();
+            this.TB_PHONGBAN_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label114 = new System.Windows.Forms.Label();
+            this.TB_SDT_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label113 = new System.Windows.Forms.Label();
+            this.TB_NGAYSINH_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label112 = new System.Windows.Forms.Label();
+            this.TB_GIOITINH_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label110 = new System.Windows.Forms.Label();
+            this.TB_CHUVU_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label109 = new System.Windows.Forms.Label();
+            this.TB_MANV_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.BT_THEMNV_FIREBASE_DEMO = new System.Windows.Forms.Button();
+            this.tb_TENNV_FIREBASE_DEMO = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.navigationPageHopDong_HR = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -585,6 +612,9 @@
             this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.skinRibbonGalleryBarItem1 = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
+            this.navigationPage_PhanQuyen = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            this.label133 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.officeNavigationBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl)).BeginInit();
@@ -681,6 +711,7 @@
             this.navigationPageDSChamCong.SuspendLayout();
             this.panel52.SuspendLayout();
             this.panel51.SuspendLayout();
+            this.navigationPage_PhanQuyen.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabbedView
@@ -791,9 +822,10 @@
             this.barButtonItem30,
             this.barButtonItemChamCong_HR,
             this.barButtonItem18,
-            this.barButtonItemTaiKhoan_HRM});
+            this.barButtonItemTaiKhoan_HRM,
+            this.barButtonItem17});
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 107;
+            this.ribbonControl.MaxItemId = 108;
             this.ribbonControl.MdiMergeStyle = DevExpress.XtraBars.Ribbon.RibbonMdiMergeStyle.Always;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.PageHeaderItemLinks.Add(this.barButtonItem29);
@@ -1128,17 +1160,17 @@
             this.barButtonItemTK.ImageOptions.Image = global::GUI.Properties.Resources.customer_16x16;
             this.barButtonItemTK.ImageOptions.LargeImage = global::GUI.Properties.Resources.customer_32x32;
             this.barButtonItemTK.Name = "barButtonItemTK";
-            toolTipTitleItem17.Text = "Tài Khoản cá nhân";
-            toolTipItem9.LeftIndent = 6;
-            toolTipItem9.Text = "Xem thông tin tài khoản đăng nhập, chỉnh sửa thông tin, thay đổi mật khẩu";
-            toolTipTitleItem18.Appearance.Image = global::GUI.Properties.Resources.contact_32x32;
-            toolTipTitleItem18.Appearance.Options.UseImage = true;
-            toolTipTitleItem18.Image = global::GUI.Properties.Resources.contact_32x32;
-            toolTipTitleItem18.LeftIndent = 6;
-            superToolTip9.Items.Add(toolTipTitleItem17);
-            superToolTip9.Items.Add(toolTipItem9);
-            superToolTip9.Items.Add(toolTipTitleItem18);
-            this.barButtonItemTK.SuperTip = superToolTip9;
+            toolTipTitleItem1.Text = "Tài Khoản cá nhân";
+            toolTipItem1.LeftIndent = 6;
+            toolTipItem1.Text = "Xem thông tin tài khoản đăng nhập, chỉnh sửa thông tin, thay đổi mật khẩu";
+            toolTipTitleItem2.Appearance.Image = global::GUI.Properties.Resources.contact_32x32;
+            toolTipTitleItem2.Appearance.Options.UseImage = true;
+            toolTipTitleItem2.Image = global::GUI.Properties.Resources.contact_32x32;
+            toolTipTitleItem2.LeftIndent = 6;
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            superToolTip1.Items.Add(toolTipItem1);
+            superToolTip1.Items.Add(toolTipTitleItem2);
+            this.barButtonItemTK.SuperTip = superToolTip1;
             this.barButtonItemTK.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItemTK_ItemClick);
             // 
             // barButtonItem29
@@ -1147,17 +1179,17 @@
             this.barButtonItem29.Id = 101;
             this.barButtonItem29.ImageOptions.Image = global::GUI.Properties.Resources.assignto_32x32;
             this.barButtonItem29.Name = "barButtonItem29";
-            toolTipTitleItem19.Text = "Đăng Xuất";
-            toolTipItem10.LeftIndent = 6;
-            toolTipItem10.Text = "Thoát đăng nhập tài khoản này!\r\n";
-            toolTipTitleItem20.Appearance.Image = global::GUI.Properties.Resources.assignto_32x321;
-            toolTipTitleItem20.Appearance.Options.UseImage = true;
-            toolTipTitleItem20.Image = global::GUI.Properties.Resources.assignto_32x321;
-            toolTipTitleItem20.LeftIndent = 6;
-            superToolTip10.Items.Add(toolTipTitleItem19);
-            superToolTip10.Items.Add(toolTipItem10);
-            superToolTip10.Items.Add(toolTipTitleItem20);
-            this.barButtonItem29.SuperTip = superToolTip10;
+            toolTipTitleItem3.Text = "Đăng Xuất";
+            toolTipItem2.LeftIndent = 6;
+            toolTipItem2.Text = "Thoát đăng nhập tài khoản này!\r\n";
+            toolTipTitleItem4.Appearance.Image = global::GUI.Properties.Resources.assignto_32x321;
+            toolTipTitleItem4.Appearance.Options.UseImage = true;
+            toolTipTitleItem4.Image = global::GUI.Properties.Resources.assignto_32x321;
+            toolTipTitleItem4.LeftIndent = 6;
+            superToolTip2.Items.Add(toolTipTitleItem3);
+            superToolTip2.Items.Add(toolTipItem2);
+            superToolTip2.Items.Add(toolTipTitleItem4);
+            this.barButtonItem29.SuperTip = superToolTip2;
             // 
             // barButtonItem30
             // 
@@ -1318,6 +1350,7 @@
             // ribbonPageGroup21
             // 
             this.ribbonPageGroup21.ItemLinks.Add(this.barButtonItemTaiKhoan_HRM);
+            this.ribbonPageGroup21.ItemLinks.Add(this.barButtonItem17);
             this.ribbonPageGroup21.Name = "ribbonPageGroup21";
             this.ribbonPageGroup21.Text = "Phân Quyền";
             // 
@@ -1916,6 +1949,7 @@
             this.navigationFrameMain.Controls.Add(this.navigationPageTaiKhoan_HRM);
             this.navigationFrameMain.Controls.Add(this.navigationPagePhanCong_HRM);
             this.navigationFrameMain.Controls.Add(this.navigationPageDSChamCong);
+            this.navigationFrameMain.Controls.Add(this.navigationPage_PhanQuyen);
             this.navigationFrameMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.navigationFrameMain.Location = new System.Drawing.Point(165, 143);
             this.navigationFrameMain.Name = "navigationFrameMain";
@@ -1934,7 +1968,8 @@
             this.navigationPageDuyetDon_hr,
             this.navigationPageTaiKhoan_HRM,
             this.navigationPagePhanCong_HRM,
-            this.navigationPageDSChamCong});
+            this.navigationPageDSChamCong,
+            this.navigationPage_PhanQuyen});
             this.navigationFrameMain.RibbonAndBarsMergeStyle = DevExpress.XtraBars.Docking2010.Views.RibbonAndBarsMergeStyle.Always;
             this.navigationFrameMain.SelectedPage = this.NavigationPageTaiKhoan;
             this.navigationFrameMain.Size = new System.Drawing.Size(1293, 768);
@@ -4403,9 +4438,254 @@
             // 
             // navigationPageTaoThongBao
             // 
+            this.navigationPageTaoThongBao.Controls.Add(this.label131);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_HINH_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label122);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_MAHD_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label121);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_CHEDOLAMVIEC_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label120);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_TINHTRANG_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label117);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_NGAYVAOLAM_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label116);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_MALUONG_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label115);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_PHONGBAN_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label114);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_SDT_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label113);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_NGAYSINH_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label112);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_GIOITINH_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label110);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_CHUVU_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label109);
+            this.navigationPageTaoThongBao.Controls.Add(this.TB_MANV_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.label13);
+            this.navigationPageTaoThongBao.Controls.Add(this.BT_THEMNV_FIREBASE_DEMO);
+            this.navigationPageTaoThongBao.Controls.Add(this.tb_TENNV_FIREBASE_DEMO);
             this.navigationPageTaoThongBao.Controls.Add(this.label10);
             this.navigationPageTaoThongBao.Name = "navigationPageTaoThongBao";
             this.navigationPageTaoThongBao.Size = new System.Drawing.Size(1293, 768);
+            // 
+            // label131
+            // 
+            this.label131.AutoSize = true;
+            this.label131.Location = new System.Drawing.Point(24, 518);
+            this.label131.Name = "label131";
+            this.label131.Size = new System.Drawing.Size(28, 13);
+            this.label131.TabIndex = 39;
+            this.label131.Text = "Hình";
+            // 
+            // TB_HINH_FIREBASE_DEMO
+            // 
+            this.TB_HINH_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 515);
+            this.TB_HINH_FIREBASE_DEMO.Name = "TB_HINH_FIREBASE_DEMO";
+            this.TB_HINH_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_HINH_FIREBASE_DEMO.TabIndex = 38;
+            // 
+            // label122
+            // 
+            this.label122.AutoSize = true;
+            this.label122.Location = new System.Drawing.Point(24, 479);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(75, 13);
+            this.label122.TabIndex = 37;
+            this.label122.Text = "Mã  Hợp Đồng";
+            // 
+            // TB_MAHD_FIREBASE_DEMO
+            // 
+            this.TB_MAHD_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 476);
+            this.TB_MAHD_FIREBASE_DEMO.Name = "TB_MAHD_FIREBASE_DEMO";
+            this.TB_MAHD_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_MAHD_FIREBASE_DEMO.TabIndex = 36;
+            // 
+            // label121
+            // 
+            this.label121.AutoSize = true;
+            this.label121.Location = new System.Drawing.Point(24, 443);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(82, 13);
+            this.label121.TabIndex = 35;
+            this.label121.Text = "Chế độ làm việc";
+            // 
+            // TB_CHEDOLAMVIEC_FIREBASE_DEMO
+            // 
+            this.TB_CHEDOLAMVIEC_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 440);
+            this.TB_CHEDOLAMVIEC_FIREBASE_DEMO.Name = "TB_CHEDOLAMVIEC_FIREBASE_DEMO";
+            this.TB_CHEDOLAMVIEC_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_CHEDOLAMVIEC_FIREBASE_DEMO.TabIndex = 34;
+            // 
+            // label120
+            // 
+            this.label120.AutoSize = true;
+            this.label120.Location = new System.Drawing.Point(24, 403);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(56, 13);
+            this.label120.TabIndex = 33;
+            this.label120.Text = "Tình trạng";
+            // 
+            // TB_TINHTRANG_FIREBASE_DEMO
+            // 
+            this.TB_TINHTRANG_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 400);
+            this.TB_TINHTRANG_FIREBASE_DEMO.Name = "TB_TINHTRANG_FIREBASE_DEMO";
+            this.TB_TINHTRANG_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_TINHTRANG_FIREBASE_DEMO.TabIndex = 32;
+            // 
+            // label117
+            // 
+            this.label117.AutoSize = true;
+            this.label117.Location = new System.Drawing.Point(24, 364);
+            this.label117.Name = "label117";
+            this.label117.Size = new System.Drawing.Size(72, 13);
+            this.label117.TabIndex = 31;
+            this.label117.Text = "Ngày vào làm";
+            // 
+            // TB_NGAYVAOLAM_FIREBASE_DEMO
+            // 
+            this.TB_NGAYVAOLAM_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 361);
+            this.TB_NGAYVAOLAM_FIREBASE_DEMO.Name = "TB_NGAYVAOLAM_FIREBASE_DEMO";
+            this.TB_NGAYVAOLAM_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_NGAYVAOLAM_FIREBASE_DEMO.TabIndex = 30;
+            // 
+            // label116
+            // 
+            this.label116.AutoSize = true;
+            this.label116.Location = new System.Drawing.Point(24, 327);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(54, 13);
+            this.label116.TabIndex = 29;
+            this.label116.Text = "Mã Lương";
+            // 
+            // TB_MALUONG_FIREBASE_DEMO
+            // 
+            this.TB_MALUONG_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 324);
+            this.TB_MALUONG_FIREBASE_DEMO.Name = "TB_MALUONG_FIREBASE_DEMO";
+            this.TB_MALUONG_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_MALUONG_FIREBASE_DEMO.TabIndex = 28;
+            // 
+            // label115
+            // 
+            this.label115.AutoSize = true;
+            this.label115.Location = new System.Drawing.Point(24, 291);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(58, 13);
+            this.label115.TabIndex = 27;
+            this.label115.Text = "Phòng Ban";
+            // 
+            // TB_PHONGBAN_FIREBASE_DEMO
+            // 
+            this.TB_PHONGBAN_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 288);
+            this.TB_PHONGBAN_FIREBASE_DEMO.Name = "TB_PHONGBAN_FIREBASE_DEMO";
+            this.TB_PHONGBAN_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_PHONGBAN_FIREBASE_DEMO.TabIndex = 26;
+            // 
+            // label114
+            // 
+            this.label114.AutoSize = true;
+            this.label114.Location = new System.Drawing.Point(24, 254);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(69, 13);
+            this.label114.TabIndex = 25;
+            this.label114.Text = "Số điện thoại";
+            // 
+            // TB_SDT_FIREBASE_DEMO
+            // 
+            this.TB_SDT_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 251);
+            this.TB_SDT_FIREBASE_DEMO.Name = "TB_SDT_FIREBASE_DEMO";
+            this.TB_SDT_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_SDT_FIREBASE_DEMO.TabIndex = 24;
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.Location = new System.Drawing.Point(24, 217);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(55, 13);
+            this.label113.TabIndex = 23;
+            this.label113.Text = "Ngày Sinh";
+            // 
+            // TB_NGAYSINH_FIREBASE_DEMO
+            // 
+            this.TB_NGAYSINH_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 214);
+            this.TB_NGAYSINH_FIREBASE_DEMO.Name = "TB_NGAYSINH_FIREBASE_DEMO";
+            this.TB_NGAYSINH_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_NGAYSINH_FIREBASE_DEMO.TabIndex = 22;
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Location = new System.Drawing.Point(24, 180);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(45, 13);
+            this.label112.TabIndex = 21;
+            this.label112.Text = "Giới tính";
+            // 
+            // TB_GIOITINH_FIREBASE_DEMO
+            // 
+            this.TB_GIOITINH_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 177);
+            this.TB_GIOITINH_FIREBASE_DEMO.Name = "TB_GIOITINH_FIREBASE_DEMO";
+            this.TB_GIOITINH_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_GIOITINH_FIREBASE_DEMO.TabIndex = 20;
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Location = new System.Drawing.Point(24, 143);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(47, 13);
+            this.label110.TabIndex = 19;
+            this.label110.Text = "Chức vụ";
+            // 
+            // TB_CHUVU_FIREBASE_DEMO
+            // 
+            this.TB_CHUVU_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 140);
+            this.TB_CHUVU_FIREBASE_DEMO.Name = "TB_CHUVU_FIREBASE_DEMO";
+            this.TB_CHUVU_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_CHUVU_FIREBASE_DEMO.TabIndex = 18;
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Location = new System.Drawing.Point(24, 106);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(71, 13);
+            this.label109.TabIndex = 17;
+            this.label109.Text = "Mã nhân viên";
+            // 
+            // TB_MANV_FIREBASE_DEMO
+            // 
+            this.TB_MANV_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 103);
+            this.TB_MANV_FIREBASE_DEMO.Name = "TB_MANV_FIREBASE_DEMO";
+            this.TB_MANV_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.TB_MANV_FIREBASE_DEMO.TabIndex = 16;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(24, 69);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(75, 13);
+            this.label13.TabIndex = 15;
+            this.label13.Text = "Tên nhân viên";
+            // 
+            // BT_THEMNV_FIREBASE_DEMO
+            // 
+            this.BT_THEMNV_FIREBASE_DEMO.Location = new System.Drawing.Point(529, 106);
+            this.BT_THEMNV_FIREBASE_DEMO.Name = "BT_THEMNV_FIREBASE_DEMO";
+            this.BT_THEMNV_FIREBASE_DEMO.Size = new System.Drawing.Size(90, 26);
+            this.BT_THEMNV_FIREBASE_DEMO.TabIndex = 14;
+            this.BT_THEMNV_FIREBASE_DEMO.Text = "ADD";
+            this.BT_THEMNV_FIREBASE_DEMO.UseVisualStyleBackColor = true;
+            this.BT_THEMNV_FIREBASE_DEMO.Click += new System.EventHandler(this.BT_THEMNV_FIREBASE_DEMO_Click);
+            // 
+            // tb_TENNV_FIREBASE_DEMO
+            // 
+            this.tb_TENNV_FIREBASE_DEMO.Location = new System.Drawing.Point(150, 66);
+            this.tb_TENNV_FIREBASE_DEMO.Name = "tb_TENNV_FIREBASE_DEMO";
+            this.tb_TENNV_FIREBASE_DEMO.Size = new System.Drawing.Size(272, 21);
+            this.tb_TENNV_FIREBASE_DEMO.TabIndex = 13;
             // 
             // label10
             // 
@@ -6402,6 +6682,31 @@
             this.skinRibbonGalleryBarItem1.Id = 48;
             this.skinRibbonGalleryBarItem1.Name = "skinRibbonGalleryBarItem1";
             // 
+            // navigationPage_PhanQuyen
+            // 
+            this.navigationPage_PhanQuyen.Controls.Add(this.label133);
+            this.navigationPage_PhanQuyen.Name = "navigationPage_PhanQuyen";
+            this.navigationPage_PhanQuyen.Size = new System.Drawing.Size(1293, 768);
+            this.navigationPage_PhanQuyen.Paint += new System.Windows.Forms.PaintEventHandler(this.navigationPage1_Paint_1);
+            // 
+            // barButtonItem17
+            // 
+            this.barButtonItem17.Caption = "Phân Quyền";
+            this.barButtonItem17.Id = 107;
+            this.barButtonItem17.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.Image")));
+            this.barButtonItem17.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.LargeImage")));
+            this.barButtonItem17.Name = "barButtonItem17";
+            this.barButtonItem17.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem17_ItemClick);
+            // 
+            // label133
+            // 
+            this.label133.AutoSize = true;
+            this.label133.Location = new System.Drawing.Point(434, 301);
+            this.label133.Name = "label133";
+            this.label133.Size = new System.Drawing.Size(127, 13);
+            this.label133.TabIndex = 0;
+            this.label133.Text = "Đây là trang phân quyền";
+            // 
             // MainForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -6564,6 +6869,8 @@
             this.panel52.PerformLayout();
             this.panel51.ResumeLayout(false);
             this.panel51.PerformLayout();
+            this.navigationPage_PhanQuyen.ResumeLayout(false);
+            this.navigationPage_PhanQuyen.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -7117,5 +7424,35 @@
         private System.Windows.Forms.ColumnHeader columnHeader20;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label131;
+        private System.Windows.Forms.TextBox TB_HINH_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label122;
+        private System.Windows.Forms.TextBox TB_MAHD_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label121;
+        private System.Windows.Forms.TextBox TB_CHEDOLAMVIEC_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label120;
+        private System.Windows.Forms.TextBox TB_TINHTRANG_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label117;
+        private System.Windows.Forms.TextBox TB_NGAYVAOLAM_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label116;
+        private System.Windows.Forms.TextBox TB_MALUONG_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label115;
+        private System.Windows.Forms.TextBox TB_PHONGBAN_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label114;
+        private System.Windows.Forms.TextBox TB_SDT_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label113;
+        private System.Windows.Forms.TextBox TB_NGAYSINH_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label112;
+        private System.Windows.Forms.TextBox TB_GIOITINH_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label110;
+        private System.Windows.Forms.TextBox TB_CHUVU_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.TextBox TB_MANV_FIREBASE_DEMO;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button BT_THEMNV_FIREBASE_DEMO;
+        private System.Windows.Forms.TextBox tb_TENNV_FIREBASE_DEMO;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage_PhanQuyen;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
+        private System.Windows.Forms.Label label133;
     }
 }
